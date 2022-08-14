@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Beta template</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <header id="background-img">
+      <nav id="nav-bar" class="nav-background">
+        <div class="logo">
+          <a href="index.html">
+            <h1 style="color:#fff;">SamBlog</h1>
+          </a>
+        </div>
+        <ul>
+          <li class="nav-bar-item"><a href="#">About</a></li>
+          <li class="nav-bar-item"><a href="#">Blogs</a></li>
+          <li class="nav-bar-item"><a href="#">Users</a></li>
+          <li class="nav-bar-item"><a href="#">Profile</a></li>
+          <li class="nav-bar-item"><a href="#">Login</a></li>
+        </ul>
+      </nav>
+      <div class="show-case-content">
+        <h1>Welcome to <span>SamBlog</span></h1>
+        <p style="text-align: center; width: 1100px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+        <div class="show-case-btns">
+          <a href="#" class="btn show-case-btn">More info</a>
+          <a href="#" class="btn show-case-btn create-blog-btn">Create a Blog <span><i data-feather="edit"></i></span></a>
+        </div>
+    </div>
+  </header>
+  <!-- Lattes Blogs -->
+  <section id="lattes-blogs" class="landing-section">
+    <div class="container">
+      <div class="section-headers">
+        <h1>◦ Lates Blogs ◦</h1>
+      </div>
+      <div id="blog-row">
+        <section id="blog-box">
+          <img src="./img/cover-img.png" alt="" class="cover-img">
+          <article class="blog-text">
+            <h1>Blog Title</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quis, cumque nobis, autem tempora est totam quisquam facilis ipsa ullam molestias delectus animi, laudantium doloremque? Id quibusdam dolorem nobis ducimus?</p>
+            <div class="tags"><span class="tag">#Python</span></div>
+          </article>
+          <a href="blog.html" class="btn read-more">Read More</a>
+        </section>
+        <section id="blog-box">
+          <img src="./img/cover-img.png" alt="" class="cover-img">
+          <article class="blog-text">
+            <h1>Blog Title</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quis, cumque nobis, autem tempora est totam quisquam facilis ipsa ullam molestias delectus animi, laudantium doloremque? Id quibusdam dolorem nobis ducimus?</p>
+            <div class="tags"><span class="tag">#Python</span></div>
+          </article>
+          <a href="blog.html" class="btn read-more">Read More</a>
+        </section>
+        <section id="blog-box">
+          <img src="./img/cover-img.png" alt="" class="cover-img">
+          <article class="blog-text">
+            <h1>Blog Title</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quis, cumque nobis, autem tempora est totam quisquam facilis ipsa ullam molestias delectus animi, laudantium doloremque? Id quibusdam dolorem nobis ducimus?</p>
+            <div class="tags"><span class="tag">#Python</span></div>
+          </article>
+          <a href="blog.html" class="btn read-more">Read More</a>
+        </section>
+      </div>
+    </div>
+  </section>
+<!-- Our mission -->
+  <section id="our-mission"class="landing-section">
+    <div class="container">
+      <div class="section-headers">
+        <h1>◦ Our Mission ◦</h1>
+      </div>
+      <div class="mission-content">
+        <div class="mission-images">
+          <img src="img/image-1.jpg" class="mission-image-1" alt="mission-image">
+          <img src="img/image-2.jpg" class="mission-image-2" alt="mission-image">
+          <img src="img/image-3.jpg" class="mission-image-3" alt="mission-image">
+        </div>
+        <div class="mission-text">
+          <h1>Our mission:</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit dicta accusamus, ullam eligendi eius sint commodi maiores dolor quae illo minima corrupti illum repellendus explicabo perspiciatis porro iste ducimus quia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="topics" class="landing-section">
+    <div class="container">
+      <div class="section-headers">
+        <h1>◦ Topics ◦</h1>
+      </div>
+      <div class="topics-boxes">
+        <ul class="topics-boxes-row">
+          <li class="topic-item"><a href="#">Technology</a></li>
+          <li class="topic-item"><a href="#">Soft Skill</a></li>
+          <li class="topic-item"><a href="#">Travel</a></li>
+          <li class="topic-item"><a href="#">Business</a></li>
+          <li class="topic-item"><a href="#">Marketing</a></li>
+          <li class="topic-item"><a href="#">Gaming</a></li>
+          <li class="topic-item"><a href="#">Media</a></li>
+          <li class="topic-item"><a href="#">Education</a></li>
+        </ul>
+        <a href="#" class="topics-more-btn">more</a>
+      </div>
+    </div>
+  </section>
+<footer id="footer">
+  <div class="footer-content">
+    <p>
+      Copyright &copy; 2022 
+    </p>
+    <div class="icons">
+      <a href="#" class="facebook"><i data-feather="facebook"></i></a>
+      <a href="#" class="instagram"><i data-feather="instagram"></i></a>
+      <a href="#" class="linkedin"><i data-feather="linkedin"></i></a> 
+    </div>
+  </div>
+</footer>
+
+<!-- Java script -->
+<!-- icons -->
+  <script>
+    feather.replace()
+  </script>
+    <script>
+      //   navbar
+      const navbar = document.getElementById('nav-bar');
+      let scrolled = false;
+  
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove('nav-background');
+          if (!scrolled) {
+            navbar.style.transform = 'translateY(-70px)';
+          }
+          setTimeout(function () {
+            navbar.style.transform = 'translateY(0)';
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add('nav-background');
+          scrolled = false;
+        }
+      };
+  
+      // Smooth Scrolling
+      $('.nav-bar a, .btn').on('click', function (e) {
+        if (this.hash !== ''){
+          e.preventDefault();
+  
+          const hash = this.hash;
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top - 100,
+            },
+            800
+          );
+        }
+      });
+    </script>
+</body>
+</html>
